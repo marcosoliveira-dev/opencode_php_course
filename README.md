@@ -35,6 +35,13 @@ Sistema de barbearia com:
 - 🌐 HTML5, CSS3, JavaScript  
 - 🗄️ MySQL ou SQLite  
 
+---
+
+## 📺 Playlist no YouTube
+
+Acompanhe todas as aulas da série pelo link abaixo:
+
+👉 https://www.youtube.com/playlist?list=PLMe2S2T_wqYhkg2Sb8Gg2QcR4QsMtdN11  
 
 ---
 
