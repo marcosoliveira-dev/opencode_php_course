@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberPro - Sistema de Agendamento Online para Barbearias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>BarberPro</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#pricing">Planos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <button class="cta-button">Testar Gratuitamente</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Agendamento Online <span>Perfeito</span> para Sua Barbearia</h1>
+                        <p class="hero-description">
+                            Transforme sua barbearia com sistema inteligente de agendamento. 
+                            Reduza no-shows, aumente clientela e organize sua agenda como nunca.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary">Começar Teste Grátis</button>
+                            <button class="btn-secondary">Ver Demonstração</button>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Barbearias Ativas</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50K+</span>
+                                <span class="stat-label">Agendamentos/Mês</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-label">Satisfação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="dashboard-preview">
+                            <div class="calendar-widget"></div>
+                            <div class="appointment-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Recursos que Revolucionam sua Barbearia</h2>
+                    <p>Tudo que você precisa para modernizar e otimizar seu negócio</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h3>Agendamento 24/7</h3>
+                        <p>Clientes marcam horários online a qualquer momento. Sem mais ligações e mensagens perdidas.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3>Gestão de Clientes</h3>
+                        <p>Cadastro completo com histórico de serviços, preferências e dados importantes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3>Pagamentos Online</h3>
+                        <p>Receba antecipado e reduza ausências. Integração com principais meios de pagamento.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            </svg>
+                        </div>
+                        <h3>Automação de Lembretes</h3>
+                        <p>Envio automático de SMS e WhatsApp para confirmar e lembrar agendamentos.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3>Relatórios Inteligentes</h3>
+                        <p>Análise de desempenho, produtos mais vendidos e horários de maior movimento.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11H3v10h6V11zm4-7H7v17h6V4zm4 3h-6v14h6V7zm4 7h-6v7h6v-7z"></path>
+                            </svg>
+                        </div>
+                        <h3>Multi-barbearias</h3>
+                        <p>Gerencie múltiplas unidades, barbeiros e serviços em um único sistema.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <div class="container">
+                <div class="benefits-content">
+                    <div class="benefits-text">
+                        <h2>Transforme Sua Barbearia Digitalmente</h2>
+                        <p>Deixe a tecnologia trabalhar para você enquanto foca no que faz de melhor: cortar cabelo e fazer clientes felizes.</p>
+                        <div class="benefits-list">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">✓</div>
+                                <div>
+                                    <strong>Aumento de 40% no Faturamento</strong>
+                                    <p>Com agendamento online e redução de no-shows</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">✓</div>
+                                <div>
+                                    <strong>Economia de 15h/semana</strong>
+                                    <p>Automatize tarefas administrativas repetitivas</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">✓</div>
+                                <div>
+                                    <strong>Clientes 3x Mais Fiéis</strong>
+                                    <p>Experiência profissional e conveniência total</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">✓</div>
+                                <div>
+                                    <strong>Setup em 5 Minutos</strong>
+                                    <p>Interface intuitiva que você domina imediatamente</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-primary">Começar Agora</button>
+                    </div>
+                    <div class="benefits-image">
+                        <div class="phone-mockup">
+                            <div class="app-screen"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Planos que Crescem com Seu Negócio</h2>
+                    <p>Comece grátis e escale conforme sua barbearia evolui</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Iniciante</h3>
+                            <div class="price">
+                                <span class="currency">R$</span>
+                                <span class="amount">0</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="pricing-description">Perfeito para barbeiros independentes</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span>Até 20 agendamentos/mês</li>
+                            <li><span class="check">✓</span>Agendamento online</li>
+                            <li><span class="check">✓</span>Gestão básica de clientes</li>
+                            <li><span class="check">✓</span>Lembretes automáticos</li>
+                            <li><span class="check">✓</span>Suporte por email</li>
+                        </ul>
+                        <button class="btn-secondary">Começar Grátis</button>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Mais Popular</div>
+                        <div class="pricing-header">
+                            <h3>Profissional</h3>
+                            <div class="price">
+                                <span class="currency">R$</span>
+                                <span class="amount">79</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="pricing-description">Ideal para barbearias em crescimento</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span>Agendamentos ilimitados</li>
+                            <li><span class="check">✓</span>Todos os recursos iniciante</li>
+                            <li><span class="check">✓</span>Pagamentos online</li>
+                            <li><span class="check">✓</span>Relatórios avançados</li>
+                            <li><span class="check">✓</span>Até 3 barbeiros</li>
+                            <li><span class="check">✓</span>Suporte prioritário</li>
+                        </ul>
+                        <button class="btn-primary">Testar 14 Dias</button>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                <span class="currency">R$</span>
+                                <span class="amount">199</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="pricing-description">Para redes e barbearias estabelecidas</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span>Todos os recursos profissional</li>
+                            <li><span class="check">✓</span>Barbeiros ilimitados</li>
+                            <li><span class="check">✓</span>Múltiplas unidades</li>
+                            <li><span class="check">✓</span>API personalizada</li>
+                            <li><span class="check">✓</span>Integrações avançadas</li>
+                            <li><span class="check">✓</span>Suporte dedicado 24/7</li>
+                        </ul>
+                        <button class="btn-secondary">Fale Conosco</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Pronto para Modernizar Sua Barbearia?</h2>
+                    <p>Junte-se a mais de 500 barbearias que já transformaram seus negócios</p>
+                    <button class="btn-primary btn-large">Começar Teste Grátis de 14 Dias</button>
+                    <p class="cta-note">Sem cartão de crédito • Cancelar a qualquer momento</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BarberPro</h3>
+                    <p>O sistema definitivo de agendamento online para barbearias modernas.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Produto</h4>
+                    <ul>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#pricing">Planos</a></li>
+                        <li><a href="#">Integrações</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Tutoriais</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Status do Sistema</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BarberPro. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
