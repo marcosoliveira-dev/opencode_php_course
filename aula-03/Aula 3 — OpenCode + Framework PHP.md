@@ -1,10 +1,3 @@
----
-date: 2026-02-12 11:20:57
-created: 2026-02-12 06:44:17
-categories:
-- Videos / OpenCode
----
-
 # Aula 3 — OpenCode + Framework PHP 
 
 * * *
